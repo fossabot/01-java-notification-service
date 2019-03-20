@@ -1,6 +1,7 @@
 package tech.becoming.notificationservice.controller;
 
 import org.springframework.web.bind.annotation.*;
+import tech.becoming.notificationservice.repository.EmailRepository;
 import tech.becoming.notificationservice.data.EmailRequest;
 import tech.becoming.notificationservice.service.EmailService;
 
@@ -9,8 +10,12 @@ import tech.becoming.notificationservice.service.EmailService;
 public class EmailController {
 
     private EmailService emailService;
+    private EmailRepository emailRepository;
 
-    public EmailController(EmailService emailService) {this.emailService = emailService;}
+    public EmailController(EmailService emailService, EmailRepository emailRepository) {
+        this.emailService = emailService;
+        this.emailRepository = emailRepository;
+    }
 
     @PostMapping
     public String sendEmail(@RequestBody EmailRequest emailRequest) {
@@ -19,7 +24,7 @@ public class EmailController {
 
     @GetMapping("{id}")
     public EmailRequest getById(@PathVariable String id) {
-        return emailService.getById(id);
+        return emailRepository.getById(id);
     }
 
 }
