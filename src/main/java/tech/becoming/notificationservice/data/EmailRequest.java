@@ -1,5 +1,7 @@
 package tech.becoming.notificationservice.data;
 
+import javax.security.auth.Subject;
+
 public class EmailRequest {
 
     private String id;
@@ -7,6 +9,8 @@ public class EmailRequest {
     private String from;
 
     private String to;
+    private String subject;
+    private String message;
 
     public String getId() {
         return id;
@@ -30,5 +34,21 @@ public class EmailRequest {
 
     public void setTo(String to) {
         this.to = to;
+    }
+
+    public String getSubject() {
+        return subject;
+    }
+
+    public void setSubject(String subject) {
+        this.subject = subject;
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
     }
 }
