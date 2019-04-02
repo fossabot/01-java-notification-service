@@ -1,6 +1,6 @@
 # notification-service
 
-[![Build Status](https://travis-ci.org/becoming/notification-service.svg?branch=master)](https://travis-ci.org/becoming/notification-service)
+[![Build Status](https://travis-ci.org/becoming/01-java-notification-service.svg?branch=master)](https://travis-ci.org/becoming/01-java-notification-service)
 
 A service capable of sending notifications. It exposes a REST interface for interaction.
 [Official website](https://becoming.tech/java/notification-service)
