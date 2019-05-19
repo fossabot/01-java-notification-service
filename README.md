@@ -40,3 +40,15 @@ mvn spring-boot:run
 You can download a build of this service from our [Bintray repository.](https://bintray.com/beta/#/becoming/m2/)
 
 You can use maven as well by using the instructions from **Set me up** button, (_top right_)
+
+
+## Self testing
+
+In order to test if you learned well the things so far try to do the following apps:
+
+1. Email notifications via google
+    - via dedicated route: /email-google/
+1. Email notifications via amazon's  simple email service
+    - via dedicated route: /email-amazon-ses/
+1. Push notification via Firebase
+    - via dedicated route: /push/
