@@ -2,7 +2,8 @@
 
 [![Build Status](https://travis-ci.org/becoming/01-java-notification-service.svg?branch=master)](https://travis-ci.org/becoming/01-java-notification-service)
 [![Maintainability](https://api.codeclimate.com/v1/badges/bae2216087d74560df26/maintainability)](https://codeclimate.com/github/becoming/01-java-notification-service/maintainability)
-
+[ ![Download](https://api.bintray.com/packages/becoming/m2/notification-service/images/download.svg) ](https://bintray.com/becoming/m2/notification-service/_latestVersion) 
+ 
 A service capable of sending notifications. It exposes a REST interface for interaction.
 [Official website](https://becoming.tech)
 
