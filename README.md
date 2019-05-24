@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/becoming/01-java-notification-service.svg?branch=master)](https://travis-ci.org/becoming/01-java-notification-service)
 [![Maintainability](https://api.codeclimate.com/v1/badges/bae2216087d74560df26/maintainability)](https://codeclimate.com/github/becoming/01-java-notification-service/maintainability)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fbecoming%2F01-java-notification-service.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fbecoming%2F01-java-notification-service?ref=badge_shield)
 [ ![Download](https://api.bintray.com/packages/becoming/m2/notification-service/images/download.svg) ](https://bintray.com/becoming/m2/notification-service/_latestVersion) 
 [![Gitter](https://badges.gitter.im/becoming-tech/community.svg)](https://gitter.im/becoming-tech/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
@@ -54,3 +55,7 @@ In order to test if you learned well the things so far try to do the following a
     - via dedicated route: /email-amazon-ses/
 1. Push notification via Firebase
     - via dedicated route: /push/
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fbecoming%2F01-java-notification-service.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fbecoming%2F01-java-notification-service?ref=badge_large)
